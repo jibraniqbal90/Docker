@@ -1,0 +1,21 @@
+ 
+# DockerTutorial
+    1. Clone DockerTutorial
+    2.  --> DockerCompose --> run the command --> docker-compose up
+
+    It will start 2 containers 
+        1. Insecure private Registry
+        2. Container from Custom Image
+
+    To push it to docker registry:
+        -->docker-compose push
+
+    1. Clone DockerTutorial
+    2.  --> DockerCompose --> run the command --> docker-compose up
+
+    It will start 2 containers 
+        1. Insecure private Registry
+        2. Container from Custom Image
+
+    To push it to docker registry:
+        -->docker-compose push

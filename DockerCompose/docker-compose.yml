@@ -1,0 +1,12 @@
+version: "3.8"
+services: 
+    web:
+        build: .
+        ports: 
+            - "8081:8080"
+        image: '127.0.0.01:5000/myjavamage'
+    myregistry:
+        image: registry
+        ports: 
+            - "5000:5000"
+        container_name: myregistry
